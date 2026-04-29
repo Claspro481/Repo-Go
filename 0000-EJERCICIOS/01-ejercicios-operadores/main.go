@@ -38,6 +38,36 @@ func main(){
 	fmt.Println("Es legendario y esta vivo?: ", es_legendario && esta_vivo)
 	fmt.Println("Es legendario o esta vivo?", es_legendario || esta_vivo)
 
+	//Ejercicios 
+	fmt.Println("Operadores aritmeticos")  //  + , - , * , / , % 
+	variable1 := 10
+	variable2 := 10
+	fmt.Println(variable1 + variable2)
+
+	fmt.Println("Operadores de comparacion") // >, <, >= , <= , != , == , 
+	variable3 := 50 
+	variable4 := 50 
+	fmt.Println(variable3 >= variable4)
+
+	fmt.Println("Operadores condicionales ") // ! , && , ||
+	variable5 := true
+	variable6 := true
+	fmt.Println(variable6 && variable5)
+
+	fmt.Println("Operadores de asignacioon")//asigale el valor que te digo
+	// += , -= , *= , /= 
+	temperatura := 100
+
+	temperatura *= 2
+	fmt.Println(temperatura)
+
+	fmt.Println("Operadores de incremento y decremento") //variable-- , variable++ , aumenta 1 o mas 
+	conexiones := 10 
+	conexiones--
+	fmt.Println(conexiones)
+
+
+
 
 
 
