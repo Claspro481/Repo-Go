@@ -102,6 +102,31 @@ func main (){
 		fmt.Println("No puedes conducir")
 	}
 
+	//Operador diferente de 
+	usuario1 := "admin" 
+	if usuario1 != "root"{
+		fmt.Println("Permiso negeado")
+	}else {
+		fmt.Println("Acceso denegado")
+	}
+
+	//se cumple al mens que una condicion sea verdadera 
+	edad3 := 20
+	tienePermiso := false
+
+	if edad3 >= 18 || tienePermiso {
+		fmt.Println("Puedes entrar")
+	}
+
+	logueado2 := true
+
+	if !logueado2 {
+		fmt.Println("Debes iniciar sesion")
+
+	}else {
+		fmt.Println("Bienvenido")
+	}
+
 
 
 
