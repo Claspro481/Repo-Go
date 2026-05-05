@@ -25,8 +25,8 @@ func main (){
 
 	fmt.Println("============FOR3")
 	servicios := []string{"ngix", "mysql", "redis"}
-	for indice, servicios := range servicios{
-		fmt.Println("Servicio en indice", indice, servicios)
+	for indiceServicio, nombreServicio := range servicios {
+		fmt.Println(indiceServicio, nombreServicio)
 	}
 
 
