@@ -34,5 +34,28 @@ func main(){
 	case temperatura >= 25:
 		fmt.Println("Hace calor")
 	}
-	
+
+	//usar sentencia switch para determinar el tipo de vehiculo segun un numero ingresado por el usuario 
+	auto := 1
+
+	switch auto{
+	case 1:
+		fmt.Println("Automovil")
+	case 2:
+		fmt.Println("Motocicleta")
+	case 3:
+		fmt.Println("Camion")
+	default:
+		fmt.Println("Veihiculo desconocido")
+	}
+
+	velocidad := 50
+	switch{
+	case velocidad == 0:
+		fmt.Println("Vehiculo detenido")
+	case velocidad > 0 && velocidad <= 50:
+		fmt.Println("Vehiculo en movimiento (velocidad normal)")
+	case velocidad > 51:
+		fmt.Println("Alta velocidad")
+	}
 }
