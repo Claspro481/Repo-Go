@@ -59,7 +59,44 @@ func main(){
 		fmt.Println("Reprobado")
 	}
 
+	//hagamos un switch un ejemplo con las motos
+
+	//creamos una variable de string 
+	marca_celular := "Samsung"
+	//ponemos switch y llamamos la varibale cuando es de tipo strig
+	switch marca_celular{
+	case "Samsung":
+		fmt.Println("Especificaciones")
+	case "Iphone":
+		fmt.Println("Especificaciones")
+	case "Xiaomi":
+		fmt.Println("Especificaciones")
+	}
+
+	//diferente manera , siempre llamamos a la vaiable
+	teclado := 1
+	switch teclado{
+	case 1:
+		fmt.Println("Mecanico")
+
+	case 2:
+		fmt.Println("Convencional")
+	}
+
 	
+
+
+
+
+	marca_moto := "Yamaha"
+	switch marca_moto {
+	case "Honda":
+		fmt.Println("Honda: 150cc........")
+	case "Yamaha":
+		fmt.Println("Yamaha: 300cc R3")
+	default:
+		fmt.Println("Marca desconocida")
+	}
 
 
 

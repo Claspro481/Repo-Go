@@ -1,7 +1,8 @@
 package main
+
 import (
 	"fmt"
-	
+	"time"
 )
 func main(){
     //imaginemos que queremos imprimir el nombre de un dia segun un numero 
@@ -58,4 +59,34 @@ func main(){
 	case velocidad > 51:
 		fmt.Println("Alta velocidad")
 	}
+
+
+	switch time.Now().Weekday(){
+	case time.Monday:
+		fmt.Println("Inicio de semana")
+	case time.Friday:
+		fmt.Println("Ultimo dia laboral")
+	case time.Saturday, time.Sunday:
+		fmt.Println("Fin de semana")
+	default:
+		fmt.Println("Dia normal")
+
+
+	}
+
+	marca_moto := "Yamaha"
+	switch marca_moto {
+	case "Honda":
+		fmt.Println("Honda: 150cc........")
+	case "Yamaha":
+		fmt.Println("Yamaha: 300cc R3")
+	default:
+		fmt.Println("Marca desconocida")
+	}
+
+
+	
+
+
+	
 }
