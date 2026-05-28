@@ -8,22 +8,53 @@ import (
 
 func main(){
 
+<<<<<<< HEAD
+=======
+
+	fmt.Println("================CONSTANTES")
+
+>>>>>>> 8800f21 (recap and new excercises with slices and new examples)
 	const (
 		nombre = "Jostyn"
 	)
 	fmt.Println("Accedemos a valores:", nombre)
 
+<<<<<<< HEAD
     const hola = "Cadena"
 	fmt.Println(hola)
 	const hola2 string = "Cadena3"
 	fmt.Println(hola2)
 
+=======
+	const (
+		nombre3 = "S22 ultra"
+		marca = "samsung"
+		year = 2022
+	)
+	fmt.Println("Accedemos a esos valores:", year)
+
+	const cilindrada_moto = 500
+	fmt.Println("Cilindrada: ", cilindrada_moto)
+
+    const hola = "Cadena"
+	const hola2 string = "Cadena3"
+	fmt.Println(hola)
+	fmt.Println(hola2)
+
+
+	fmt.Println("===================VARIABLES")
+>>>>>>> 8800f21 (recap and new excercises with slices and new examples)
 	//variables 
 	nombre2 := "Jostyn"
 	apellido := "Iraheta"
 	//concatenamos cadena e imprimimos 
 	fmt.Println(nombre2 + " " + apellido)
 
+<<<<<<< HEAD
+=======
+
+	
+>>>>>>> 8800f21 (recap and new excercises with slices and new examples)
 	//operadores 
 	servidor := true
 	es_turnon := false
@@ -98,6 +129,11 @@ func main(){
 		fmt.Println("Marca desconocida")
 	}
 
+<<<<<<< HEAD
+=======
+	
+
+>>>>>>> 8800f21 (recap and new excercises with slices and new examples)
 
 
 

@@ -8,7 +8,13 @@ Temas Aprendidos
 5. If - ejercicios con diferentes tipos de operadores y logica de if 
 6. Secuencia for , de sus 4 formas 
 7. Secuencia Switch , de sus 3 formas , normal con numero , sentencias logicasd y llamadas por string 
+<<<<<<< HEAD
 
+=======
+8. Tipos de arreglos , //var 
+9. Slices de todos sus tipos con equal y make , (poner mas atencion)
+10. recap de los temas vistos
+>>>>>>> 8800f21 (recap and new excercises with slices and new examples)
 
 
 
