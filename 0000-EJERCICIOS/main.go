@@ -76,6 +76,48 @@ func main() {
 	en_equipo := true
 	fmt.Println(hp,nivel,experiencia,en_equipo)
 
+	//variables 
+	//declarar variables del mismo tipo 
+	//varias al mismo tiempo 
+	var variable1 , variable2 string = "Texto1", "Texto2"
+	fmt.Println(variable1, variable2)
+	var precio , cantidad float64 = 5.31, 20
+	fmt.Println(precio, cantidad)
+
+	//variable normal 
+	var hola string = "Hola"
+	fmt.Println(hola)
+
+	pc := 20
+	fmt.Println(pc)
+
+	//ejemplos cuando queremos especificar el tipo de datos que es requerido 
+	//ejemplo usuarioen un sistema porque los ids pueden crecer mucho 
+	var userID int64 = 123456789
+	fmt.Println(userID)
+	//Temperatira de servidores 
+	var temperatura10 = 39.20
+	fmt.Println(temperatura10)
+	//cantidad de computadoras de inventario 
+	var stock int16 = 50 
+	fmt.Println(stock)
+
+	//ASIGNAR CONSTNATES A VARIABLES 
+	//cuando la constante es un valor estandar y la variable lo usa como base 
+	const IVA = 13 
+	var precioBase = 100
+	var precioFinal = precioBase + IVA
+	fmt.Println(precioFinal)
+
+	
+
+
+
+
+
+
+
+
 
 	
 

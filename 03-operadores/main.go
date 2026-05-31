@@ -63,25 +63,4 @@ func main() {
 	fmt.Println(servidorA || servidorB) //con que funcione 1 es suficiente para que nos lance true 
 	//si los dos son false entonces flase 
 
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
