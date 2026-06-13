@@ -19,6 +19,9 @@ func main(){
 	var marcha_actual int = 2
 	fmt.Println("Marcha actual: ", marcha_actual)
 
+	var variable1 float64 = 12.2
+	fmt.Println("variable: ", variable1)
+
 
 	fmt.Println("=================================RECAP 2 constantes")
 	const(
@@ -30,6 +33,20 @@ func main(){
 	const limite_RPM float64 = 6500
 	fmt.Println("Limite de revoluciones: ", limite_RPM)
 
+	//hacemos otra constante
+	const(
+		id = 1
+		name = "jos"
+		age = 23
+	)
+	fmt.Println("Iduser:", id)
+
+	const temp float64 = 35.5
+	fmt.Println("Temperatura:", temp)
+
+	const puerto = 8080
+	fmt.Println(puerto)
+	
 	fmt.Println("=================================RECAP 3 conversion de tipos")
 	//sensor mide con decimales 
 	var rpmSensor float64 = 5400.64
