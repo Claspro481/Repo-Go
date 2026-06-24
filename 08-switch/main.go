@@ -4,7 +4,45 @@ import (
 	"fmt"
 	"time"
 )
+
+//hacemos una funcion para agregar con switches 
+func agregarUsuario(){
+	fmt.Println("Usuario agregado")
+}
+
+func eliminarUsuario(){
+	fmt.Println("Usuario eliminado")
+}
+
+func obtenerUsuario(){
+	fmt.Println("Usuario obtenido")
+}
+func crearUsuario(){
+	fmt.Println("Usuario creado")
+}
 func main(){
+
+	//agregamos switch de metodos
+	metodo := "POST"
+	switch metodo {
+	case "GET":
+		obtenerUsuario()
+	case "POST":
+		crearUsuario()
+	}
+
+	opcion := 3
+	switch opcion{
+	case 1:
+		agregarUsuario()
+	case 2:
+		eliminarUsuario()
+	default:
+		fmt.Println("Opcion invalida")
+	}
+
+
+
     //imaginemos que queremos imprimir el nombre de un dia segun un numero 
 	diaDeLaSemana := 7
 	switch diaDeLaSemana{
@@ -83,6 +121,9 @@ func main(){
 	default:
 		fmt.Println("Marca desconocida")
 	}
+
+	//nuevos ejemplos de switch 
+
 
 
 	
